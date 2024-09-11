@@ -91,7 +91,7 @@ a:hover {
 .social-share a {
   font-size: 20px;
   color: #fff;
-  background: #02bdd5;
+  background: #24456B;
   padding: 4px 10px;
   display: inline-block;
 }
@@ -131,7 +131,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #02bdd5;
+  background: #24456B;
   color: #fff;
 }
 .global-page-header h2 {
@@ -210,7 +210,7 @@ a:hover {
   display: block;
 }
 .navbar .nav-item .nav-link:hover {
-  color: #02bdd5 !important;
+  color: #24456B !important;
 }
 .navbar .nav-item:last-child .nav-link {
   padding-right: 0;
@@ -251,7 +251,7 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .dropdown-item:hover {
-  color: #02bdd5 !important;
+  color: #24456B !important;
   background: transparent;
 }
 .dropdown:hover .dropdown-menu {
@@ -316,7 +316,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #24456B;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -342,7 +342,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #02bdd5;
+  color: #24456B;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -356,7 +356,7 @@ a:hover {
 }
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #02bdd5;
+  background: #24456B;
 }
 
 #about {
@@ -393,7 +393,7 @@ a:hover {
   font-weight: 300;
 }
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #24456B;
 }
 .about-feature .about-feature-2 {
   background: #00B0C7;
@@ -503,8 +503,8 @@ figure .buttons {
   display: inline-block;
 }
 figure .buttons a:hover {
-  background: #02bdd5;
-  border-color: #02bdd5;
+  background: #24456B;
+  border-color: #24456B;
 }
 figure .buttons a:focus {
   text-decoration: none;
@@ -518,7 +518,7 @@ figure figcaption h4 {
   margin: 0;
 }
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #24456B;
 }
 figure figcaption p {
   font-size: 14px;
@@ -552,7 +552,7 @@ figure figcaption p {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #02bdd5;
+  background-color: #24456B;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -568,7 +568,7 @@ figure figcaption p {
 
 .wrapper_404 h1 {
   font-size: 200px;
-  color: #02bdd5;
+  color: #24456B;
   line-height: 1;
 }
 .wrapper_404 h2 {
@@ -622,15 +622,15 @@ article {
   margin-top: 20px;
 }
 .blog-content .btn-details {
-  color: #02bdd5;
+  color: #24456B;
   padding: 0;
-  background: #02bdd5;
+  background: #24456B;
   color: #fff;
   padding: 8px 18px;
   border-radius: 0;
   margin-top: 15px;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #02bdd5;
+  box-shadow: 0px 0px 0px 1px #24456B;
 }
 
 .blog-post-image {
@@ -695,7 +695,7 @@ article {
   font-size: 15px;
 }
 .sidebar .recent-post ul li a:hover {
-  color: #02bdd5;
+  color: #24456B;
 }
 .sidebar .recent-post time {
   font-weight: 300;
@@ -720,9 +720,9 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #24456B;
   transition: all linear 0.2s;
-  border-color: #02bdd5;
+  border-color: #24456B;
   border-radius: 0;
 }
 #contact-section input {
@@ -764,7 +764,7 @@ article {
 }
 #contact-section .address i, #contact-section .email i, #contact-section .phone i {
   font-size: 45px;
-  color: #02bdd5;
+  color: #24456B;
 }
 #contact-section .address h5, #contact-section .email h5, #contact-section .phone h5 {
   font-size: 16px;
@@ -830,7 +830,7 @@ article {
   padding: 30px 20px;
 }
 .single-post .media .media-body a {
-  color: #02bdd5;
+  color: #24456B;
   font-size: 12px;
 }
 .single-post .media .media {
@@ -850,7 +850,7 @@ article {
   border-radius: 0;
 }
 .single-post .post-comment .btn-send {
-  background: #02bdd5;
+  background: #24456B;
   color: #fff;
   border-radius: 0;
 }
@@ -892,7 +892,7 @@ article {
 
 .btn-work {
   color: #fff;
-  background: #02bdd5;
+  background: #24456B;
   border-radius: 0;
 }
 
@@ -904,7 +904,7 @@ article {
 }
 #product-showcase-banner .block h2 {
   font-size: 40px;
-  color: #02bdd5;
+  color: #24456B;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -1008,7 +1008,7 @@ article {
 }
 #related-items .block h4 span {
   float: right;
-  color: #02bdd5;
+  color: #24456B;
 }
 #related-items .block .img-overly {
   position: relative;
@@ -1043,7 +1043,7 @@ article {
 }
 .service-page .service-parts .block i {
   font-size: 35px;
-  color: #02bdd5;
+  color: #24456B;
 }
 .service-page .service-parts .block p {
   padding: 0 8px;
@@ -1072,7 +1072,7 @@ article {
   font-size: 13px;
 }
 .team-member h3 {
-  color: #02bdd5;
+  color: #24456B;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -1080,7 +1080,7 @@ article {
   font-size: 14px;
 }
 .team-member .social-icons a {
-  background: #02bdd5;
+  background: #24456B;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
@@ -1100,7 +1100,7 @@ article {
   margin-bottom: 0;
 }
 #footer .copyright a {
-  color: #02bdd5;
+  color: #24456B;
 }
 #footer .social {
   text-align: right;
@@ -1112,11 +1112,11 @@ article {
 }
 #footer .social li a {
   font-size: 22px;
-  color: #02bdd5;
+  color: #24456B;
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #24456B;
 }
 
 ul.social-icons {
