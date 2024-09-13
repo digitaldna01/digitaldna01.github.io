@@ -5,6 +5,14 @@
  * GITHUB: https://github.com/themefisher/
  */
 
+ /* index page */
+:root{
+  --primary-color: #24456b;
+  --primary-color-dark: #1e3958;
+  --primary-color-light: #376aa4;
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
@@ -1141,3 +1149,13 @@ ul.social-icons li {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
