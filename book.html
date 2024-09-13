@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Book Flipping Effect</title>
+  <link rel="stylesheet" href="book/styles.css">
+</head>
+<body>
+
+<div class="flipbook-viewport">
+  <div class="flipbook">
+    <div>Hi!</div>
+    <div class="page" id="page1"><canvas id="pdf-canvas1"></canvas></div>
+    <div class="page" id="page2"><canvas id="pdf-canvas2"></canvas></div>
+    <div class="page" id="page3"><canvas id="pdf-canvas3"></canvas></div>
+    <!-- Add more pages as needed -->
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.0/turn.min.js"></script>
+<script src="book/script.js"></script>
+
+</body>
+</html>
+
