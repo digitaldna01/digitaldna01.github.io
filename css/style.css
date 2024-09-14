@@ -1150,12 +1150,52 @@ ul.social-icons li {
 }
 /*# sourceMappingURL=style.css.map */
 
-
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
+/* Link Styles */
+.watch-link {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
 }
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with transparency */
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  max-width: 700px;
+  top: 10%;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Video inside the modal */
+.modal video {
+  width: 100%;
+  height: auto;
+  display: block;
 }

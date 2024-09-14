@@ -111,3 +111,27 @@
     },
   });
 });
+
+
+var modal = document.getElementById("videoModal");
+var video = document.getElementById("video");
+var watchLink = document.getElementById("watchLink");
+var closeBtn = document.getElementById("close");
+// When the user clicks the link, open the modal and play the video
+watchLink.onclick = function(event) {
+  event.preventDefault();  // Prevent default anchor behavior
+  modal.style.display = "block";
+  video.play();
+}
+// When the user clicks on the close button (x), close the modal and pause the video
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+  video.pause();
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    video.pause();
+  }
+}
